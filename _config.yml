@@ -2,6 +2,15 @@
 title: Centro Cultural de Barra Velha
 timezone: UTC
 collections:
+  cursos:
+    title: Cursos
+    output: true
+  cursosTopicos:
+    title: Cursos Tópicos
+    output: true
+  eventos:
+    title: Eventos
+    output: true
   posts:
     title: Posts
     output: true
