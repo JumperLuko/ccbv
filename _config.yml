@@ -1,6 +1,6 @@
 ---
 title: Centro Cultural de Barra Velha
-timezone: UTC
+timezone: America/Sao_Paulo
 collections:
   cursos:
     title: Cursos
