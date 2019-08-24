@@ -1,12 +1,12 @@
 ---
 title: Dança
-date: 2019-08-14 17:00:00 Z
+date: 2019-08-14 14:00:00 -03:00
 categories:
 - CursosTopicos
 layout: post
 ---
 
 - Baby Class
-- Jazz
+- [Jazz](/cursos/#Jazz)
 - Dança Rítmica
 - Dança do Ventre
