@@ -1,11 +1,18 @@
 .titleCCBV{
     height:800px;
-    background:#491d3d;
-    background-image: url("/assets/img/ccbv-home-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow:hidden;
+    width: 100%;
+    >div{
+        height:800px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background:#491d3d;
+        background-image: url("/assets/img/ccbv-home-background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow:hidden;
+    }
 }
 
 .cursos{

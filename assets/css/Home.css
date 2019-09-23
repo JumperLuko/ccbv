@@ -1,5 +1,14 @@
 .titleCCBV {
   height: 800px;
+  width: 100%;
+}
+
+.titleCCBV > div {
+  height: 800px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background: #491d3d;
   background-image: url("/assets/img/ccbv-home-background.jpg");
   background-size: cover;
