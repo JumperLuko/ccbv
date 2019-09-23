@@ -4,14 +4,13 @@
     >div{
         height:800px;
         width: 100%;
-        transition: all linear 0.01s;
         position: sticky;
         top: 0;
         background:#491d3d;
         background-image: url("/assets/img/ccbv-home-background.jpg");
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+        background-size: auto;
+        background-position: right top;
+        // background-attachment: fixed;
         overflow:hidden;
     }
 }

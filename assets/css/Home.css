@@ -6,16 +6,13 @@
 .titleCCBV > div {
   height: 800px;
   width: 100%;
-  -webkit-transition: all linear 0.01s;
-  transition: all linear 0.01s;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: #491d3d;
   background-image: url("/assets/img/ccbv-home-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-size: auto;
+  background-position: right top;
   overflow: hidden;
 }
 
