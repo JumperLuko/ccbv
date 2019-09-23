@@ -6,6 +6,8 @@
 .titleCCBV > div {
   height: 800px;
   width: 100%;
+  -webkit-transition: all linear 0.01s;
+  transition: all linear 0.01s;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
