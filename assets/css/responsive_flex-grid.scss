@@ -27,8 +27,7 @@ body {margin: 0;padding: 0;}
     width: 100%;
 }
 
-
-@media only screen and (min-width: 300px) {
+/* Here is the base starting columns, without minimum width */
     .col--1 {width: 8.33%;}
     .col--2 {width: 16.66%;}
     .col--3 {width: 25%;}
@@ -88,7 +87,7 @@ body {margin: 0;padding: 0;}
     .gacol--10 {grid-template-columns: auto auto auto auto auto auto auto auto auto auto;}
     .gacol--11 {grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;}
     .gacol--12 {grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;}
-}
+
 @media only screen and (min-width: 350px) {
     .col-ss-1 {width: 8.33%;}
     .col-ss-2 {width: 16.66%;}

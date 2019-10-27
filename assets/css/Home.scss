@@ -1,17 +1,24 @@
 .titleCCBV{
     height:800px;
     width: 100%;
+    filter: sepia(0.4);
+    color: #e7e7e7;
+    font-size: 80px;
+    font-family: Signika-Regular;
+    text-align: center;
     >div{
         height:800px;
         width: 100%;
         position: sticky;
         top: 0;
-        background:#491d3d;
         background-image: url("/assets/img/ccbv-home-background.jpg");
         background-size: auto;
-        background-position: right top;
-        // background-attachment: fixed;
+        background-position: center;
         overflow:hidden;
+        >span{
+            background: #000000aa;
+            padding: 40px;
+        }
     }
 }
 
@@ -24,7 +31,6 @@
         padding:15px;
         margin: 15px;
         font-size:1.1rem;
-        font-family: 'Roboto Mono', monospace;
         background-color: #f3ece6;
         box-shadow: #00000066 0px 30px 16px -10px;
         a{

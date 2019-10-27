@@ -1,15 +1,23 @@
+@font-face {
+    font-family: PermanentMarker;
+    src: url('/assets/fonts/PermanentMarker-Regular.ttf');
+}@font-face {
+    font-family: Dosis-Regular;
+    src: url('/assets/fonts/Dosis-Regular.ttf');
+}@font-face {
+    font-family: Signika-Regular;
+    src: url('/assets/fonts/Signika-Regular.ttf');
+}@font-face {
+    font-family: Poppins;
+    src: url('/assets/fonts/Poppins-Medium.ttf');
+}
+
 body{
     background:#f3ece6;
-    // background-image: url("/assets/img/bg.jpg"),linear-gradient(150deg, #f3ece6, #fffbf8);
-    background-attachment: fixed;
-    font-family: 'Nunito', sans-serif;
-    animation: backgroudColors 20s infinite;
+    background-image: url("/assets/img/bg.jpg");
+    // background-attachment: fixed;
+    font-family: 'Dosis-Regular', sans-serif;
 }
-// @keyframes backgroudColors{
-//     0% {background-position: 0 0;}
-//     50% {background-position: 20px 20px;}
-//     100% {background-position: 0 0;}
-// }
 
 img{max-width:100%;}
 
@@ -23,52 +31,60 @@ img{max-width:100%;}
 img{max-width:100%;}
 
 nav{
-    min-height: 60px;
-    background: #4E1142;
-    background-image: linear-gradient(1deg, #4E1142, #710b5f);
+    padding: 0 0 20px 0;
+    @media only screen and (min-width: 1250px) {
+        height: 200px;
+        padding: 0;
+    }
     color:#ffffff;
     letter-spacing: 0.040rem;
-    box-shadow: black 0 0 10px 1px;
     position: relative;
     font-size:1.30rem;
     word-spacing:0.2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Signika-Regular,'Open Sans';
     a{
         text-decoration: unset;
         color: unset;
         max-width: 100%;
     }
-    > a{
-        min-height:80px;
-        padding:0 40px;
+    .logo{
+        @media only screen and (max-width: 400px) {
+            font-size: 1.5rem;
+            background-position: center center;
+        }
+        width: 400px;
+        height: 160px;
+        font-size: 2rem;
+        padding-bottom: 20px;
+        @media only screen and (min-width: 1250px) {
+            width: 500px;
+            height: 100%;
+            font-size: 2.5rem;
+            background-position: center;
+            padding-bottom: 30px;
+            margin: 0;
+        }
+        max-width: 100%;
+        font-family: PermanentMarker;
+        background-image: url("/assets/img/menu/menu-logo.png");
+        background-size: cover;
+        text-shadow: #000 0 0 15px;
     }
     > div{
-        > a, .dropdown > a{
-            min-height:80px;
-            height:100%;
-            padding:0 10px;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-        > a:hover, 
-        .dropdown:hover > a, 
-        .dropdown > .dropdown-sub > .dropdown-option:hover
-        {background-color: #00000088;transition: 0.1s all linear;}
-        .dropdown{
-            height: 80px;
-            > .dropdown-sub{
-                background: #2C0024;
-                background-image: linear-gradient(#4E1142,#2C0024);
-                width: 100%;
-                >.dropdown-option{
-                    min-height:50px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    padding: 15px 10px;
-                }
-            }
+        width: 100%;
+        @media only screen and (min-width: 1250px) {width: calc(100% - 580px);}
+        filter: drop-shadow(2px 4px 6px black);
+        >a{
+            background-image: url("/assets/img/menu/menu-option1.png");
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            &.option-1{background-image: url("/assets/img/menu/menu-option1.png");}
+            &.option-2{background-image: url("/assets/img/menu/menu-option2.png");}
+            &.option-3{background-image: url("/assets/img/menu/menu-option3.png");}
+            &.option-4{background-image: url("/assets/img/menu/menu-option4.png");}
+            &.option-5{background-image: url("/assets/img/menu/menu-option5.png");}
+            &.option-6{background-image: url("/assets/img/menu/menu-option3.png");}
         }
     }
 }
@@ -76,7 +92,7 @@ nav{
 footer{
     background-color:#0d0414;
     color:#ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     text-align: center;
     > div.siga{
         >h1{padding:40px 0 20px 0;}
@@ -107,8 +123,6 @@ header {
         @media only screen and (min-width: 600px) {font-size: 5rem;}
         font-family: 'Lexend Zetta', sans-serif;
         color:#360c15;
-        background-color:#4364bf;
-        background-image:url('/assets/img/title-bg.jpg');
         background-size:100% 100%;
         background-position-y: 0px;
         background-repeat: no-repeat;
@@ -123,7 +137,7 @@ header {
     margin: 0 5%;
 }
 main{
-    background-image: linear-gradient(150deg, #f3ece6, #fffbf8);
+    // background-image: linear-gradient(150deg, #f3ece6, #fffbf8);
 }
 @keyframes pageTitleFilters{
     0% {filter: hue-rotate(0DEG) saturate(1)}

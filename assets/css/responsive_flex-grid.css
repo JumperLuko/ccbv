@@ -39,196 +39,249 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 300px) {
-  .col--1 {
-    width: 8.33%;
-  }
-  .col--2 {
-    width: 16.66%;
-  }
-  .col--3 {
-    width: 25%;
-  }
-  .col--4 {
-    width: 33.33%;
-  }
-  .col--5 {
-    width: 41.66%;
-  }
-  .col--6 {
-    width: 50%;
-  }
-  .col--7 {
-    width: 58.33%;
-  }
-  .col--8 {
-    width: 66.66%;
-  }
-  .col--9 {
-    width: 75%;
-  }
-  .col--10 {
-    width: 83.33%;
-  }
-  .col--11 {
-    width: 91.66%;
-  }
-  .col--12 {
-    width: 100%;
-  }
-  .col-_5 {
-    width: 5%;
-  }
-  .col-_10 {
-    width: 10%;
-  }
-  .col-_25 {
-    width: 25%;
-  }
-  .col-_20 {
-    width: 20%;
-  }
-  .col-_30 {
-    width: 30%;
-  }
-  .col-_35 {
-    width: 35%;
-  }
-  .col-_40 {
-    width: 40%;
-  }
-  .col-_45 {
-    width: 45%;
-  }
-  .col-_50 {
-    width: 50%;
-  }
-  .col-_55 {
-    width: 55%;
-  }
-  .col-_60 {
-    width: 60%;
-  }
-  .col-_65 {
-    width: 65%;
-  }
-  .col-_70 {
-    width: 70%;
-  }
-  .col-_75 {
-    width: 75%;
-  }
-  .col-_80 {
-    width: 80%;
-  }
-  .col-_85 {
-    width: 85%;
-  }
-  .col-_90 {
-    width: 90%;
-  }
-  .col-_95 {
-    width: 95%;
-  }
-  .col-_100 {
-    width: 100%;
-  }
-  .gcol--1 {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-  }
-  .gcol--2 {
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-  }
-  .gcol--3 {
-    -ms-grid-columns: 33.3334% 33.3334% 33.3334%;
-        grid-template-columns: 33.3334% 33.3334% 33.3334%;
-  }
-  .gcol--4 {
-    -ms-grid-columns: 25% 25% 25% 25%;
-        grid-template-columns: 25% 25% 25% 25%;
-  }
-  .gcol--5 {
-    -ms-grid-columns: 20% 20% 20% 20% 20%;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-  }
-  .gcol--6 {
-    -ms-grid-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
-        grid-template-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
-  }
-  .gcol--7 {
-    -ms-grid-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
-        grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
-  }
-  .gcol--8 {
-    -ms-grid-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-  }
-  .gcol--9 {
-    -ms-grid-columns: 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112%;
-        grid-template-columns: 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112%;
-  }
-  .gcol--10 {
-    -ms-grid-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  }
-  .gcol--11 {
-    -ms-grid-columns: 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909%;
-        grid-template-columns: 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909%;
-  }
-  .gcol--12 {
-    -ms-grid-columns: 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334%;
-        grid-template-columns: 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334%;
-  }
-  .gacol--1 {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-  }
-  .gacol--2 {
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-  }
-  .gacol--3 {
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-  }
-  .gacol--4 {
-    -ms-grid-columns: auto auto auto auto;
-        grid-template-columns: auto auto auto auto;
-  }
-  .gacol--5 {
-    -ms-grid-columns: auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto;
-  }
-  .gacol--6 {
-    -ms-grid-columns: auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto;
-  }
-  .gacol--7 {
-    -ms-grid-columns: auto auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto auto;
-  }
-  .gacol--8 {
-    -ms-grid-columns: auto auto auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto auto auto;
-  }
-  .gacol--9 {
-    -ms-grid-columns: auto auto auto auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto;
-  }
-  .gacol--10 {
-    -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-  }
-  .gacol--11 {
-    -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-  }
-  .gacol--12 {
-    -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-  }
+/* Here is the base starting columns, without minimum width */
+.col--1 {
+  width: 8.33%;
+}
+
+.col--2 {
+  width: 16.66%;
+}
+
+.col--3 {
+  width: 25%;
+}
+
+.col--4 {
+  width: 33.33%;
+}
+
+.col--5 {
+  width: 41.66%;
+}
+
+.col--6 {
+  width: 50%;
+}
+
+.col--7 {
+  width: 58.33%;
+}
+
+.col--8 {
+  width: 66.66%;
+}
+
+.col--9 {
+  width: 75%;
+}
+
+.col--10 {
+  width: 83.33%;
+}
+
+.col--11 {
+  width: 91.66%;
+}
+
+.col--12 {
+  width: 100%;
+}
+
+.col-_5 {
+  width: 5%;
+}
+
+.col-_10 {
+  width: 10%;
+}
+
+.col-_25 {
+  width: 25%;
+}
+
+.col-_20 {
+  width: 20%;
+}
+
+.col-_30 {
+  width: 30%;
+}
+
+.col-_35 {
+  width: 35%;
+}
+
+.col-_40 {
+  width: 40%;
+}
+
+.col-_45 {
+  width: 45%;
+}
+
+.col-_50 {
+  width: 50%;
+}
+
+.col-_55 {
+  width: 55%;
+}
+
+.col-_60 {
+  width: 60%;
+}
+
+.col-_65 {
+  width: 65%;
+}
+
+.col-_70 {
+  width: 70%;
+}
+
+.col-_75 {
+  width: 75%;
+}
+
+.col-_80 {
+  width: 80%;
+}
+
+.col-_85 {
+  width: 85%;
+}
+
+.col-_90 {
+  width: 90%;
+}
+
+.col-_95 {
+  width: 95%;
+}
+
+.col-_100 {
+  width: 100%;
+}
+
+.gcol--1 {
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+}
+
+.gcol--2 {
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.gcol--3 {
+  -ms-grid-columns: 33.3334% 33.3334% 33.3334%;
+      grid-template-columns: 33.3334% 33.3334% 33.3334%;
+}
+
+.gcol--4 {
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+}
+
+.gcol--5 {
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.gcol--6 {
+  -ms-grid-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
+      grid-template-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
+}
+
+.gcol--7 {
+  -ms-grid-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+      grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+}
+
+.gcol--8 {
+  -ms-grid-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+      grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.gcol--9 {
+  -ms-grid-columns: 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112%;
+      grid-template-columns: 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112% 11.1112%;
+}
+
+.gcol--10 {
+  -ms-grid-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+      grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.gcol--11 {
+  -ms-grid-columns: 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909%;
+      grid-template-columns: 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909% 9.0909%;
+}
+
+.gcol--12 {
+  -ms-grid-columns: 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334%;
+      grid-template-columns: 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334% 8.3334%;
+}
+
+.gacol--1 {
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.gacol--2 {
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.gacol--3 {
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.gacol--4 {
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.gacol--5 {
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+}
+
+.gacol--6 {
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+}
+
+.gacol--7 {
+  -ms-grid-columns: auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.gacol--8 {
+  -ms-grid-columns: auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.gacol--9 {
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.gacol--10 {
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.gacol--11 {
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.gacol--12 {
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 @media only screen and (min-width: 350px) {
